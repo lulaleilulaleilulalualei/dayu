@@ -1,0 +1,259 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 函数 */
+.btnImg1.data-v-2f460510 {
+  background-image: -webkit-gradient(linear, right top, left top, from(#927E57), color-stop(51%, #A99565), to(#B09C6F));
+  background-image: -o-linear-gradient(right, #927E57 0%, #A99565 51%, #B09C6F 100%);
+  background-image: linear-gradient(270deg, #927E57 0%, #A99565 51%, #B09C6F 100%);
+}
+.btnImg2.data-v-2f460510, .actApplyBtn .toPayBtn.data-v-2f460510 {
+  background-image: -webkit-gradient(linear, right top, left top, from(#2899FA), to(#46D8FD));
+  background-image: -o-linear-gradient(right, #2899FA 0%, #46D8FD 100%);
+  background-image: linear-gradient(270deg, #2899FA 0%, #46D8FD 100%);
+}
+.ellipse1.data-v-2f460510 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipse2.data-v-2f460510, .applyBox .showApplyInfo .applyActInfo .applyActTitle.data-v-2f460510 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.activityApply.data-v-2f460510 {
+  width: 100%;
+  height: 100%;
+  background-color: #F1F1F5;
+}
+.applyBox.data-v-2f460510 {
+  background-color: #fff;
+  padding: 30rpx 30rpx 0;
+  margin-bottom: 10rpx;
+}
+.applyBox .showApplyInfo.data-v-2f460510 {
+    width: 100%;
+    height: 200rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 1px solid #F0F0F1;
+}
+.applyBox .showApplyInfo .applyActImg.data-v-2f460510 {
+      width: 200rpx;
+      height: 100%;
+      border-radius: 8rpx;
+      background-color: #D8D8D8;
+      margin-right: 30rpx;
+      overflow: hidden;
+}
+.applyBox .showApplyInfo .applyActInfo.data-v-2f460510 {
+      height: 100%;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      overflow: hidden;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.applyBox .showApplyInfo .applyActInfo .applyActTitle.data-v-2f460510 {
+        font-size: 28rpx;
+        color: #000;
+        font-weight: 600;
+}
+.applyBox .showApplyInfo .applyActInfo .applyActOtherInfo.data-v-2f460510 {
+        width: 100%;
+}
+.applyBox .showApplyInfo .applyActInfo .applyActOtherInfo .applyActTime.data-v-2f460510 {
+          font-size: 24rpx;
+          color: #AEAEAE;
+          margin-bottom: 10rpx;
+}
+.applyBox .showApplyInfo .applyActInfo .applyActOtherInfo .applyActAddress.data-v-2f460510 {
+          font-size: 24rpx;
+          color: #AEAEAE;
+}
+.applyBox .showApplyFee.data-v-2f460510 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 28rpx;
+    color: #000;
+    padding: 30rpx 0;
+}
+.applyBox .showApplyNotice.data-v-2f460510 {
+    padding-bottom: 30rpx;
+    font-size: 24rpx;
+    color: #AEAEAE;
+}
+.writeApplyInfo.data-v-2f460510 {
+  padding: 30rpx 30rpx 0;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.writeApplyInfo .writeInfoTitle.data-v-2f460510 {
+    font-size: 28rpx;
+    color: #000;
+    font-weight: 600;
+}
+.writeApplyInfo .itemWriteInfo.data-v-2f460510 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100rpx;
+    width: 100%;
+}
+.writeApplyInfo .itemWriteInfo.data-v-2f460510:not(:last-child) {
+      border-bottom: 1px solid #F0F0F1;
+}
+.writeApplyInfo .itemWriteInfo .itemWriteTitle.data-v-2f460510 {
+      width: 60rpx;
+      line-height: 100rpx;
+      font-size: 28rpx;
+      color: #000;
+}
+.writeApplyInfo .itemWriteInfo .itemWriteInp.data-v-2f460510 {
+      height: 100%;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      overflow: hidden;
+}
+.writeApplyInfo .itemWriteInfo .itemWriteInp input.data-v-2f460510 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: right;
+        font-size: 28rpx;
+        color: #000;
+}
+.applyNoticeIcon.data-v-2f460510 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 30rpx;
+}
+.applyNoticeIcon .itemApplyNotice.data-v-2f460510 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.applyNoticeIcon .itemApplyNotice.data-v-2f460510:not(:last-child) {
+      margin-right: 30rpx;
+}
+.applyNoticeIcon .itemApplyNotice .itemApplyNoticeIcon.data-v-2f460510 {
+      width: 24rpx;
+      height: 24rpx;
+      border-radius: 50%;
+      overflow: hidden;
+      line-height: 24rpx;
+      text-align: center;
+      margin-right: 10rpx;
+      background-color: #4181FF;
+      color: #FFF;
+      font-size: 12rpx;
+}
+.applyNoticeIcon .itemApplyNotice .itemApplyNoticeText.data-v-2f460510 {
+      font-size: 24rpx;
+      color: #4181FF;
+}
+.actApplyBtn.data-v-2f460510 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.actApplyBtn .actApplyBtnTotal.data-v-2f460510 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0 30rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.actApplyBtn .actApplyBtnTotal .actApplyBtnTitle.data-v-2f460510 {
+      font-size: 28rpx;
+      color: #000;
+      margin-right: 60rpx;
+}
+.actApplyBtn .actApplyBtnTotal .actApplyBtnPrice.data-v-2f460510 {
+      font-size: 28rpx;
+      color: #FF0000;
+      font-weight: 600;
+}
+.actApplyBtn .toPayBtn.data-v-2f460510 {
+    width: 320rpx;
+    height: 100%;
+    text-align: center;
+    line-height: 100rpx;
+    font-size: 28rpx;
+    color: #FFF;
+}
+

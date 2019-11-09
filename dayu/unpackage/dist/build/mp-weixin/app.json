@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/activityDetail/activityDetail",
+    "pages/activityApply/activityApply",
+    "pages/activityApplyDetail/activityApplyDetail",
+    "pages/activityPhoto/activityPhoto",
+    "pages/storeDetail/storeDetail",
+    "pages/receiverAddress/receiverAddress",
+    "pages/orderDetail/orderDetail",
+    "pages/buyRecord/buyRecord",
+    "pages/memberCenter/memberCenter",
+    "pages/checkPower/checkPower",
+    "pages/checkPower/toCheck",
+    "pages/applyPartner/applyPartner",
+    "pages/applyPartner/partnerProtocal"
+  ],
+  "subPackages": [
+    {
+      "root": "pageA",
+      "pages": [
+        "interestedType/interestedType"
+      ]
+    },
+    {
+      "root": "pageMine",
+      "pages": [
+        "mine/mine"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大渔",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

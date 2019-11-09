@@ -1,0 +1,1 @@
+<template name="389509dd"><view class="_view data-v-58f1e4e4 noListData"><view class="_view data-v-58f1e4e4 noDataImg"><image src="/static/noData.png" alt class="_img data-v-58f1e4e4"></image></view><view class="_view data-v-58f1e4e4 noDataText">{{noText}}</view></view></template>

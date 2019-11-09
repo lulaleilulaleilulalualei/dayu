@@ -1,0 +1,7 @@
+
+//公共操作
+export const CARD_ARR_LIST = "CARD_ARR_LIST"
+export const SAVE_ACT_INFO = "SAVE_ACT_INFO"
+export const REFRESH_MINE_DATA = "REFRESH_MINE_DATA"
+export const STORE_DETAIL_INFO = "STORE_DETAIL_INFO"
+export const TO_SCAN_CODE = "TO_SCAN_CODE"

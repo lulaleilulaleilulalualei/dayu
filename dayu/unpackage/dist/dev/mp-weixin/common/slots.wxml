@@ -1,0 +1,77 @@
+<import src="/components/quick-skeleton.vue.wxml" />
+<import src="/colorui/components/cu-custom.vue.wxml" />
+<import src="/pages/activityDetail/selectActNum.vue.wxml" />
+<import src="/components/loadErr.vue.wxml" />
+<import src="/components/backHome.vue.wxml" />
+<import src="/components/noMore.vue.wxml" />
+<import src="/components/noListData.vue.wxml" />
+<import src="/pageMine/mine/cardBox.vue.wxml" />
+<import src="/pages/memberCenter/getMemberInfo.vue.wxml" />
+<import src="/pages/memberCenter/payBox.vue.wxml" />
+<import src="/pages/memberCenter/memberSuccess.vue.wxml" />
+<import src="/common/slots.wxml" />
+
+<template name="data-v-023828e0-default-6570d89f-1"></template>
+
+<template name="data-v-023828e0-content-6570d89f-1">活动详情</template>
+
+<template name="data-v-760a60d0-default-04adbe67-0"></template>
+
+<template name="data-v-760a60d0-content-04adbe67-0">活动照片</template>
+
+<template name="data-v-52191272-default-8a5cc87e-0"></template>
+
+<template name="data-v-52191272-content-8a5cc87e-0">报名活动详情</template>
+
+<template name="data-v-60b3b4d0-default-4578cb1f-0"></template>
+
+<template name="data-v-60b3b4d0-content-4578cb1f-0">订单详情</template>
+
+<template name="data-v-2f460510-default-3bc32042-0"></template>
+
+<template name="data-v-2f460510-content-3bc32042-0">活动报名</template>
+
+<template name="data-v-e9232020-default-7cbbb802-0"></template>
+
+<template name="data-v-e9232020-content-7cbbb802-0">权益验证</template>
+
+<template name="data-v-1ef77e4a-default-2610592a-0"></template>
+
+<template name="data-v-1ef77e4a-content-2610592a-0">扫码确认</template>
+
+<template name="data-v-6a33bd5c-default-571f22ab-0"></template>
+
+<template name="data-v-6a33bd5c-content-571f22ab-0">收货地址</template>
+
+<template name="data-v-74e7f1c0-default-4c018b8f-1"></template>
+
+<template name="data-v-74e7f1c0-content-4c018b8f-1"></template>
+
+<template name="data-v-3e803bf6-default-ed7a5576-1"></template>
+
+<template name="data-v-3e803bf6-content-ed7a5576-1">商品详情</template>
+
+<template name="data-v-c0baf3e0-default-283a9e9f-0"></template>
+
+<template name="data-v-c0baf3e0-content-283a9e9f-0">申请合伙人</template>
+
+<template name="data-v-5d4b2b46-default-df0dc5b2-1"></template>
+
+<template name="data-v-5d4b2b46-content-df0dc5b2-1"></template>
+
+<template name="data-v-b343dcb0-default-2cbb1aee-0"></template>
+
+<template name="data-v-b343dcb0-content-2cbb1aee-0"></template>
+
+<template name="data-v-5bdd857e-default-1b30998d-0"></template>
+
+<template name="data-v-5bdd857e-content-1b30998d-0"></template>
+
+<template name="data-v-6b8e7fa0-default-fb7a2e82-0"></template>
+
+<template name="data-v-6b8e7fa0-content-fb7a2e82-0">会员中心</template>
+
+<template name="data-v-52bd4036-default-d39a47f6-1"></template>
+
+<template name="data-v-52bd4036-content-d39a47f6-1"></template>
+

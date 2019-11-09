@@ -1,0 +1,2 @@
+<import src="./checkPower.vue.wxml" />
+    <template is="7cbbb802" data="{{ ...$root['0'], $root }}"/>

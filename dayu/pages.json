@@ -1,0 +1,119 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/activityDetail/activityDetail",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+		{
+			"path": "pages/activityApply/activityApply",
+			"style": {
+				"navigationBarTitleText": "活动报名"
+			}
+		},
+		{
+			"path": "pages/activityApplyDetail/activityApplyDetail",
+			"style": {
+				"navigationBarTitleText": "报名活动详情"
+			}
+		},
+		{
+			"path": "pages/activityPhoto/activityPhoto",
+			"style": {
+				"navigationBarTitleText": "活动照片"
+			}
+		},
+		{
+			"path": "pages/storeDetail/storeDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/receiverAddress/receiverAddress",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/buyRecord/buyRecord",
+			"style": {
+				"navigationBarTitleText": "购买记录"
+			}
+		},
+		{
+			"path": "pages/memberCenter/memberCenter",
+			"style": {
+				"navigationBarTitleText": "会员中心"
+			}
+		},
+		{
+			"path": "pages/checkPower/checkPower",
+			"style": {
+				"navigationBarTitleText": "权益验证"
+			}
+		},
+		{
+			"path": "pages/checkPower/toCheck",
+			"style": {
+				"navigationBarTitleText": "扫码确认"
+			}
+		},
+		{
+			"path": "pages/applyPartner/applyPartner",
+			"style": {
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		{
+			"path": "pages/applyPartner/partnerProtocal",
+			"style": {
+				"navigationBarTitleText": "合伙人协议"
+			}
+		}
+	],
+	"subPackages": [{
+	    "root": "pageA",
+	    "pages": [{
+	        "path": "interestedType/interestedType",
+	        "style": {
+				"navigationBarTitleText": ""
+			}
+	    }]
+	}, {
+		"root": "pageMine",
+		"pages": [{
+		    "path": "mine/mine",
+		    "style": {
+				"navigationBarTitleText": ""
+			}
+		}]
+	}],
+	"condition": { //模式配置，仅开发期间生效
+	        "current": 14, //当前激活的模式（list 的索引项）
+	        "list": [{
+	            "name": "test", //模式名称
+	            "path": "pages/applyPartner/applyPartner" //启动页面，必选
+	        }]
+	    },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "大渔",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	}
+}

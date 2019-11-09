@@ -1,0 +1,2 @@
+<import src="./activityApply.vue.wxml" />
+    <template is="3bc32042" data="{{ ...$root['0'], $root }}"/>

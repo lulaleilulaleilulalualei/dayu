@@ -1,0 +1,2 @@
+<import src="./buyRecord.vue.wxml" />
+    <template is="4c018b8f" data="{{ ...$root['0'], $root }}"/>
